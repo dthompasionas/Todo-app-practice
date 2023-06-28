@@ -62,5 +62,12 @@ button:hover {
 }
 
 .todo-list {
+  /* border: 2px red solid; */
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list li {
+  list-style: none;
 }
